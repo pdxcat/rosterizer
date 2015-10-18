@@ -5,17 +5,25 @@ from datetime import datetime
 from csv import reader
 from redmine import Redmine
 from redmine.exceptions import ValidationError, ForbiddenError
-
-from config import api_key, host, project, zombie_file, zombie_text, roster_line
+import yaml
 
 
 # Configuration
+with open('secrets.yaml') as f:
+    secret = yaml.load(f.read())
 
-chronicle = Redmine(host, key=api_key)
+chronicle = Redmine(secret['host'], key=secret['api_key'])
+project = secret['project']
+
+with open('config.yaml') as f:
+    config = yaml.load(f.read())
 
 year = datetime.now().year
 roster_title = "{0}-{1} Roster".format(year, year+1)
 roster_text = "h1. {0}-{1} Roster\n\n".format(year, year+1)
+zombie_file = config['zombie_file']
+zombie_text = config['zombie_text']
+roster_line = config['roster_line']
 
 # Load all the zombies
 
