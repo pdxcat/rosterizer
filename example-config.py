@@ -21,4 +21,4 @@ p=. !{{width:450px;height=300px}}{image_file}!
 
 *Link to photos, websites, etc. that describe you (please keep appropriate):*"""
 
-roster_line = "| [[{username}]] | irc handle goes here!! | {name} | !{host}/attachments/download/xxxx/{image_file}! |\n"
+roster_line = "| [[{username}]] | irc handle goes here!! | {name} | !{{width:450px;height=300px}}{host}/attachments/download/xxxx/{image_file}! |\n"
