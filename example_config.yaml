@@ -9,14 +9,10 @@ zombie_text: |
 
   *What is your CAT account name?*
 
-  *What fun stuff do you do?*
+  *What brought you to the CAT?*
 
-  *What do you study?*
+  *What are you currently working on?*
 
-  *Do you work or volunteer?*
-
-  *A fun fact about yourself that you want us to know:*
-
-  *Link to photos, websites, etc. that describe you (please keep appropriate):*
+  *Tell us an interesting non-CAT-related thing about you:*
 
 roster_line: "| [[{username}]] | irc handle goes here!! | {name} | !{{width:450px;height=300px}}{host}/attachments/download/xxxx/{image_file}! |\n"
