@@ -3,7 +3,7 @@ zombie_file: "test_zombies.csv"
 zombie_text: |
   h1. {name}
 
-  p=. !{{width:450px;height=300px}}{image_file}!
+  p=. !{{width:450px;height=300px}}{username}.jpg!
 
   *What is your CAT IRC handle?*
 
@@ -15,4 +15,4 @@ zombie_text: |
 
   *Tell us an interesting non-CAT-related thing about you:*
 
-roster_line: "| [[{username}]] | irc handle goes here!! | {name} | !{{width:450px;height=300px}}{host}/attachments/download/xxxx/{image_file}! |\n"
+roster_line: "| [[{username}]] | irc handle goes here!! | {name} | !{{width:450px;height=300px}}{username}_IMAGE_HERE! |\n"
