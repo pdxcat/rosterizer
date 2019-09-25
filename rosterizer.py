@@ -3,8 +3,8 @@
 from sys import exit
 from datetime import datetime
 from csv import reader
-from redmine import Redmine
-from redmine.exceptions import ValidationError, ForbiddenError
+from redminelib import Redmine
+from redminelib.exceptions import ValidationError, ForbiddenError
 import yaml
 
 

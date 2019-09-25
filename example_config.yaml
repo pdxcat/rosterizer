@@ -1,5 +1,5 @@
 ---
-zombie_file: "test_zombies.csv"
+zombie_file: "example_zombies.csv"
 zombie_text: |
   h1. {name}
 
